@@ -24,6 +24,12 @@
 // Write a function called `sum` that takes two
 // parameters and returns the sum of those 2 numbers.
 
+function sum(num1, num2) {
+	var math = num1 + num2;
+	return math;
+}
+
+console.log(sum(1, 5006))
 
 
 
@@ -31,6 +37,12 @@
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
+function avg(num1, num2, num3){
+	var math = (num1 + num2 + num3) /3
+	return math
+}
+
+console.log(avg(3, 3, 3))
 
 
 
@@ -38,8 +50,11 @@
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
+function getLength(str) {
+	return str.length;
+}
 
-
+getLength("This is my string");
 
 // Q4
 // Write a function called `greaterThan` that takes
@@ -47,6 +62,7 @@
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 
+function greaterThan 
 
 
 
